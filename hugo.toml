@@ -1,0 +1,24 @@
+baseURL = "https://Tso0811.github.io/notes/"
+languageCode = "zh-tw"
+title = "Tso 的學習筆記"
+theme = "PaperMod"
+hasCJKLanguage = true
+
+[params]
+  author = "Tso0811"
+  description = "後端開發、資料庫、通訊協定學習筆記"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+[menu]
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "標籤"
+    url = "/tags/"
+    weight = 2
