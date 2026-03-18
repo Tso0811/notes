@@ -1,24 +1,55 @@
 baseURL = "https://Tso0811.github.io/notes/"
 languageCode = "zh-tw"
 title = "Tso 的學習筆記"
-theme = "PaperMod"
+theme = "hugo-theme-stack"
 hasCJKLanguage = true
+defaultContentLanguage = "zh-tw"
+
+[pagination]
+  pagerSize = 10
 
 [params]
-  author = "Tso0811"
-  description = "後端開發、資料庫、通訊協定學習筆記"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = true
-  defaultTheme = "auto"
+  mainSections = ["posts"]
+  favicon = ""
+
+  [params.sidebar]
+    subtitle = "後端開發 · 資料庫 · 硬體通訊"
+    compact = false
+
+  [params.article]
+    math = false
+    readingTime = true
+    license.enabled = false
+
+  [params.comments]
+    enabled = false
+
+  [params.widgets]
+    homepage = ["search", "archives", "tag-cloud"]
+    page = ["toc"]
+
+  [params.colorScheme]
+    toggle = true
+    default = "auto"
 
 [menu]
   [[menu.main]]
+    name = "首頁"
+    url = "/"
+    weight = 1
+    [menu.main.params]
+      icon = "home"
+
+  [[menu.main]]
     name = "文章"
     url = "/posts/"
-    weight = 1
+    weight = 2
+    [menu.main.params]
+      icon = "archives"
+
   [[menu.main]]
     name = "標籤"
     url = "/tags/"
-    weight = 2
+    weight = 3
+    [menu.main.params]
+      icon = "tag"

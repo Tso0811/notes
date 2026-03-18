@@ -10,7 +10,10 @@
       "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Windows\\\\Temp\\\\hugo_new_site.ps1\" 2>&1)",
       "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Windows\\\\Temp\\\\git_init.ps1\" 2>&1)",
       "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Windows\\\\Temp\\\\add_theme.ps1\" 2>&1)",
-      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Windows\\\\Temp\\\\git_push.ps1\" 2>&1)"
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Windows\\\\Temp\\\\git_push.ps1\" 2>&1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Windows\\\\Temp\\\\remove_papermod.ps1\" 2>&1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Windows\\\\Temp\\\\add_stack.ps1\" 2>&1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Windows\\\\Temp\\\\git_commit_push.ps1\" 2>&1)"
     ]
   }
 }
